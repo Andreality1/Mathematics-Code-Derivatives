@@ -1,0 +1,416 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <head>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" 
+            onload="renderMathInElement(document.body);"></script>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body style="background-color: #000000 ">
+<div class="article">
+
+<h1>
+<a>
+		<strong>Matemathics Explanations of Derivatives</strong>
+	</a>
+</h1>
+
+<h1>
+	<a>
+		<strong>Math Explanation CODE relations</strong>
+	</a>
+</h1>	
+
+<p class="siteSub">
+
+From Andraelity, how CODE using math. 
+
+</p>
+
+<p class="roleNote">
+
+    In thy following lines we are going to verify or create the connexion that would allow us to unite code with mathematics
+
+</p>
+
+<div class="articleRight">
+    
+    <div  class="articleRightInner">
+
+      <img width="300" height="200" src="Img/EulersIdentity.png" class="center">
+      <br>  
+<a target = "_blank" href="https://www.youtube.com/channel/UC-4AaN4M3Sq1lY6NVZnfaEw">Youtube/Andreality</a>
+</div>
+</div>
+<p>
+	<strong>Derivatives</strong>
+
+We are going to detail information and ideas that could help us clarify from which place all this properties came from in a more cohesive and organized way to validate that every single proof that we set 
+is presented in an order that could help us understand the reasons of equality that could elevate in the future to a order of probabilities, the orders we are structuring right now are base entirely on very well
+define amounts, that we could follow in a relationship of quantity, a quantity of numbers that we could start to count, and keep counting till we are able to reason about more inmense and overlimited set of items.
+
+</p>
+
+
+
+        
+
+<div class="contentsPanel">
+    <div class="contentsHeader">Contents</div>
+    <ul>
+
+<li><span>0.</span><a href="#Derivatives"> Derivatives</a></li>
+
+
+</ul>
+</div>
+
+
+<!-- 
+______   _______  _______ _________          _______ __________________          _______ 
+(  __  \ (  ____ \(  ____ )\__   __/|\     /|(  ___  )\__   __/\__   __/|\     /|(  ____ \
+| (  \  )| (    \/| (    )|   ) (   | )   ( || (   ) |   ) (      ) (   | )   ( || (    \/
+| |   ) || (__    | (____)|   | |   | |   | || (___) |   | |      | |   | |   | || (__    
+| |   | ||  __)   |     __)   | |   ( (   ) )|  ___  |   | |      | |   ( (   ) )|  __)   
+| |   ) || (      | (\ (      | |    \ \_/ / | (   ) |   | |      | |    \ \_/ / | (      
+| (__/  )| (____/\| ) \ \_____) (___  \   /  | )   ( |   | |   ___) (___  \   /  | (____/\
+(______/ (_______/|/   \__/\_______/   \_/   |/     \|   )_(   \_______/   \_/   (_______/
+
+-->
+
+
+
+
+<h2 style="font-size: 50px;" id ="EulersIdentity"><strong>Eulers Identity</strong></h2>
+<!-- <h1><b><a href="https://andraelity.github.io/WebPageVideoTest/" > https://andraelity.github.io/WebPageVideoTest/ </a></b></h1> -->
+<!-- <h1><b><a> Factorial Identification </a></b></h1> -->
+
+
+
+<!-- 
+_______ _________ _        _______    _______  _        ______     _______  _______  _______ _________ _        _______ 
+(  ____ \\__   __/( (    /|(  ____ \  (  ___  )( (    /|(  __  \   (  ____ \(  ___  )(  ____ \\__   __/( (    /|(  ____ \
+| (    \/   ) (   |  \  ( || (    \/  | (   ) ||  \  ( || (  \  )  | (    \/| (   ) || (    \/   ) (   |  \  ( || (    \/
+| (_____    | |   |   \ | || (__      | (___) ||   \ | || |   ) |  | |      | |   | || (_____    | |   |   \ | || (__    
+(_____  )   | |   | (\ \) ||  __)     |  ___  || (\ \) || |   | |  | |      | |   | |(_____  )   | |   | (\ \) ||  __)   
+      ) |   | |   | | \   || (        | (   ) || | \   || |   ) |  | |      | |   | |      ) |   | |   | | \   || (      
+/\____) |___) (___| )  \  || (____/\  | )   ( || )  \  || (__/  )  | (____/\| (___) |/\____) |___) (___| )  \  || (____/\
+\_______)\_______/|/    )_)(_______/  |/     \||/    )_)(______/   (_______/(_______)\_______)\_______/|/    )_)(_______/
+
+-->
+
+
+<hr>
+<h1 style="font-size: 30px;"><b> Sine and Cosine </b></h1>
+
+<br>
+<img  src="Img/SineAndCosine.png" style="display: block; margin: 0 auto;">
+<br>
+
+<div style = "font-size: 21px">
+
+$$\\[5ex]$$
+  
+$$\text{if Point } A = (x,y) = (1,0), \text{ then } \cos(A) = 1 \\[2ex]$$
+
+$$\\[5ex]$$
+
+$$\text{if Point } A = (x,y) = (1,0), \text{ then } \sin(A) = 0 \\[2ex]$$
+
+$$\\[5ex]$$
+
+$$\text{if Point } B = (x,y) = (0,1), \text{ then } \sin(B) = 1 \\[2ex]$$
+
+$$\\[5ex]$$
+
+$$\text{if Point } B = (x,y) = (0,1), \text{ then } \cos(B) = 0 \\[2ex]$$
+
+$$\\[5ex]$$
+
+</div>
+<br>
+<img  src="Img/SinAndCos45Degree.png" style="display: block; margin: 0 auto;">
+<br>
+
+<div style = "font-size: 21px">
+$$\\[5ex]$$
+
+$$\text{If } \theta = 45^\circ = \frac{\pi}{4},\hspace{5pt} C = (0.707106811865, 0.707106811865)$$
+
+$$\\[3ex]$$
+
+$$\text{If } C = (0.707106811865, 0.707106811865),\hspace{5pt} C, sin = C.y = 0.707106811865$$
+
+$$\\[3ex]$$
+
+$$\text{If } C = (0.707106811865, 0.707106811865),\hspace{5pt} C, \cos = C.x = 0.707106811865$$
+
+$$\\[5ex]$$
+
+$$\text{If } \theta = 45^\circ = \frac{\pi}{4} ,\hspace{5pt} \sin(\theta) = 0.707106811865$$
+
+$$\\[5ex]$$
+
+$$\text{If } \theta = 45^\circ = \frac{\pi}{4},\hspace{5pt} \cos(\theta) = 0.707106811865$$
+
+$$\\[5ex]$$
+
+$$|\vec{C}| = \sqrt{x^2 + y^2}$$
+
+$$\\[3ex]$$
+
+$$\text{hipotenuse} = \hspace{3pt} h \hspace{3pt} = \sqrt{\text{base}^2 + \text{height}^2} \implies |\vec{C}| = \sqrt{x^2 + y^2}$$
+
+$$\\[5ex]$$
+
+$$|\vec{C}| = \sqrt{x^2 + y^2} = \hspace{3pt} 1 \hspace{3pt} = 
+\sqrt{(\cos 45^\circ)^2 + (\sin 45^\circ)^2} = \sqrt{\left(\cos \left(\frac{\pi}{4}\right)\right)^2 + \left(\sin \left(\frac{\pi}{4}\right)\right)^2}$$
+
+</div>
+
+
+<br>
+<img  src="Img/SinUnitCircle3.png"  style="display: block; margin: 0 auto; ">
+<br>
+<br>
+<img  src="Img/CosUnitCircle.png" style="display: block; margin: 0 auto; width: 65%;">
+<br>
+<br>
+<br>
+
+<!-- 
+______   _______  _______ _________          _______ __________________          _______ 
+(  __  \ (  ____ \(  ____ )\__   __/|\     /|(  ___  )\__   __/\__   __/|\     /|(  ____ \
+| (  \  )| (    \/| (    )|   ) (   | )   ( || (   ) |   ) (      ) (   | )   ( || (    \/
+| |   ) || (__    | (____)|   | |   | |   | || (___) |   | |      | |   | |   | || (__    
+| |   | ||  __)   |     __)   | |   ( (   ) )|  ___  |   | |      | |   ( (   ) )|  __)   
+| |   ) || (      | (\ (      | |    \ \_/ / | (   ) |   | |      | |    \ \_/ / | (      
+| (__/  )| (____/\| ) \ \_____) (___  \   /  | )   ( |   | |   ___) (___  \   /  | (____/\
+(______/ (_______/|/   \__/\_______/   \_/   |/     \|   )_(   \_______/   \_/   (_______/
+
+-->
+
+
+<hr>
+<h1 style="font-size: 30px;"><b> Derivative </b></h1>
+<br>
+
+<div style = "font-size: 21px">
+
+  $$\text{General Formula for Derivative}$$
+
+  $$\\[5ex]$$
+
+  $$f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
+  
+  $$\\[5ex]$$
+
+  $$\text{Example \#1}$$
+
+  $$\\[5ex]$$
+  
+  $$f(x) = x^2$$ 
+
+  $$\\[5ex]$$
+  
+  $$f(x+h) = (x+h)^2$$
+
+  $$\\[5ex]$$
+
+  $$f'(x) = \lim_{h \to 0} \frac{(x+h)^2 - x^2}{h}$$
+
+  $$\\[5ex]$$
+  
+  $$(x+h)^2 = x^2 + 2xh + h^2$$
+
+  $$\\[5ex]$$
+  
+  $$f'(x) = \lim_{h \to 0} \frac{\color{red}{\cancel{x^2}} 
+  \color{white}{+ 2xh + h^2} \color{red}{\cancel{- x^2}}}{h}$$
+
+  $$\\[5ex]$$
+  
+  $$f'(x) = \lim_{h \to 0} \frac{2xh + h^2}{h}$$
+
+  $$\\[5ex]$$
+  
+  $$f'(x) = \lim_{h \to 0} \frac{\color{red}{\cancel{h}}
+  \color{white}{(2x + h)}}{\color{red}{\cancel{h}}}$$
+
+  $$\\[5ex]$$
+  
+  $$f'(x) = \lim_{h \to 0} (2x + h)$$
+
+  $$\\[5ex]$$
+  
+  $$f'(x) = 2x + 0$$
+
+  $$\\[5ex]$$
+
+  $$f'(x) = 2x$$
+
+  $$\\[5ex]$$
+
+  
+  <img  src="Img/DerivativeX2.png"  style="display: block; margin: 0 auto; ">
+
+
+  $$\text{Example \#2}$$
+
+  $$\\[5ex]$$
+
+  $$f(x) = x^n$$
+
+  $$\\[5ex]$$
+  
+  $$f(x) = x^n \implies f'(x) = nx^{n-1}$$
+
+  $$\\[5ex]$$
+
+  $$f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}$$
+
+  $$\\[5ex]$$
+
+  $$f'(x) = \lim_{h \to 0} \frac{(x + h)^n - x^n}{h}$$
+
+  $$\\[5ex]$$
+
+  $$\text{Binomial Theorem}$$
+
+  $$(x + h)^n = x^n + nx^{n-1}h + \frac{n(n-1)}{2}x^{n-2}h^2 + \dots + h^n$$
+
+  $$\\[5ex]$$
+  
+  $$f'(x) = \lim_{h \to 0} \frac{\left( \color{red}{\cancel{x^n}} \color{white}{+ nx^{n-1}h + 
+  \frac{n(n-1)}{2}x^{n-2}h^2 + \dots + h^n} \right) \color{red}{\cancel{- x^n}}}{h}$$
+
+  $$\\[5ex]$$
+
+  $$f'(x) = \lim_{h \to 0} \frac{nx^{n-1}h + \frac{n(n-1)}{2}x^{n-2}h^2 + \dots + h^n}{h}$$
+
+  $$\\[5ex]$$
+
+  $$f'(x) = \lim_{h \to 0} \frac{h \left( nx^{n-1} + \frac{n(n-1)}{2}x^{n-2}h + \dots + h^{n-1} \right)}{h}$$
+
+  $$\\[5ex]$$
+
+  $$f'(x) = \lim_{h \to 0} \frac{\color{red}{\cancel{h}} \color{white}{\left( nx^{n-1} + \frac{n(n-1)}{2}x^{n-2}h + \dots + h^{n-1} \right)}}{\color{red}{\cancel{h}}}$$
+
+  $$\\[5ex]$$
+
+  $$f'(x) = \lim_{h \to 0} \left( nx^{n-1} + \frac{n(n-1)}{2}x^{n-2}h + \dots + h^{n-1} \right)$$
+
+  $$\\[5ex]$$
+
+  $$f'(x) = nx^{n-1} + 0 + 0 + \dots + 0$$
+
+  $$\\[5ex]$$
+
+  $$f'(x) = nx^{n-1}$$
+
+  $$\\[5ex]$$
+  
+</div>
+
+<br>
+<br>
+
+
+<hr>
+<h1 style="font-size: 30px;"><b> End </b></h1>
+
+<br>
+<br>
+
+
+<!-- End -->
+
+<!-- 
+_______  _        ______     _  _  _ 
+(  ____ \( (    /|(  __  \   ( )( )( )
+| (    \/|  \  ( || (  \  )  | || || |
+| (__    |   \ | || |   ) |  | || || |
+|  __)   | (\ \) || |   | |  | || || |
+| (      | | \   || |   ) |  (_)(_)(_)
+| (____/\| )  \  || (__/  )   _  _  _ 
+(_______/|/    )_)(______/   (_)(_)(_)
+
+-->
+
+      
+
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      <div style="font-size: 24px;">
+          <p>Quadratic Formula:</p>
+          $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+      
+          <p>Cancellation Example:</p>
+          $$\frac{x \cancel{y}}{\cancel{y}} = x$$
+      
+          <p>Matrix:</p>
+          $$\begin{matrix} 1 & 0 \\ 0 & 1 \end{matrix}$$
+          $$\frac{a^2 - b^2}{a - b} = \frac{(a+b)\cancel{(a-b)}}{\cancel{(a-b)}} = a+b$$
+      
+          $$\begin{matrix} 1 & 0 \\ 0 & 1 \end{matrix}$$
+          $$\begin{matrix} 1 & 0 \\ 0 & 1 \end{matrix}$$
+
+          <p>what:</p>
+          
+          $$
+          \begin{aligned}
+          \text{Step 1: } & \binom{n}{0} = 1 
+          \\[1ex]
+          \text{Step 2: } & \binom{n}{1} = n
+          \end{aligned}
+          $$
+
+          $$
+          \begin{matrix}
+          \binom{n}{0} = 1 \\[2ex]
+          \binom{n}{1} = n
+          \end{matrix}
+          $$
+          </div> 
+      
+
+
+
+
+</div>
+
+<br>
+<br>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+    </script>
+
+	
+        <!-- <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script> -->
+        <!-- <script>window.jQuery </script> -->
+        <!-- <script src="script.js"></script> -->
+
+
+    </body>
+</html>
+
